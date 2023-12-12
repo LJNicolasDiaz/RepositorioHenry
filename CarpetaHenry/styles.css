@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: darkorange;
+    color: #333;
+    
+}
+
+#cards-containers {
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid darkorange;
+    border-radius: 15px; 
+    padding: 2em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+ 
+.logo{
+    width: 20vw;
+}
+
+
+
+
+
+
+.titulo {
+    font-size: 4em;
+    color: rgb(71, 12, 12);
+}
+
+#title-principal {
+    text-align: center;
+    font-size: 5.5em;
+    color: rgb(36, 6, 65);
+
+     
+}
+#Noticias{
+    font-size: 5em;
+    text-align: center;
+    margin-top: 2em;
+    color: black;
+}
+#pie{
+    font-size: 1.5em;
+    text-align: center;
+}
+.img{
+    padding: 1.5em;
+    margin: auto;
+}
+
+
+
+    
+

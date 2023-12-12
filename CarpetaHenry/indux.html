@@ -3,45 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="reset.css">
+    
     <title>Mi página web</title>
 </head>
 <body>
-   <h1>Mi primera web</h1>
+   <h1 class="titulo" id="title-principal">Mi primera web</h1>
    <main> 
-      <h2>Noticias</h2>
-      <ul>
-        <section> 
-        <li>
-            <p>Clima</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-            <img src="./Imagenes Henry/Clima.webp" alt="clima"> 
-        <hr>
-         </li>
-        </section>
-        
-        <section>
-         <li>
-            <p>Deportes</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-            <img src="./Imagenes Henry/deportes.jpg" alt="Deportes">
-            <hr>
-         </li>
-        </section>
+      <h2 class="titulo" id="Noticias">Noticias</h2>
+      <div id="cards-containers">
 
-        <section>
-         <li>
-            <p>Crimenes</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
-            <img src="./Imagenes Henry/robo.jpg" alt="robos">
-            <hr>
-         </li>
-        </section>
-      </ul>
+         
+         
+               <section> 
+                  <div>
+                     <h3 class="titulo">Clima</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                     <img src="./Imagenes Henry/Clima.webp" alt="clima" class="logo">
+
+                  </div>
+               </section>
+            
+            
+            
+               <section>
+                  <div>
+                     <h3 class="titulo">Deportes</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                     <img src="./Imagenes Henry/deportes.jpg" alt="Deportes" class="logo">
+                  </div>
+               </section>
+            
+
+            
+               <section>
+                  <div>
+                     <h3 class="titulo">Crimenes</h3>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                     <img src="./Imagenes Henry/robo.jpg" alt="robos" class="logo">
+                  </div>
+               </section>
+            
+         
+      </div>
+
       <footer>
-        <P>Pueden enviarnos sus noticias a nuestras redes sociales</P>
-        <img src="./Imagenes Henry/download.jpg" alt="Facebook"> <img src="./Imagenes Henry/ig.jpg" alt="Insagram">
+         <div id="pie">
+
+         <p>Pueden enviarnos sus noticias a nuestras redes sociales</p>
+         <img src="./Imagenes Henry/download.jpg" alt="Facebook" class="img"> 
+         <img src="./Imagenes Henry/ig.jpg" alt="Instagram" class="img">
+         <p >
+            <a href="https://www.facebook.com/">facebook</a class=links>
+          </p>
+          <p>
+            <a href="https://www.instagram.com/">Instagram</a class=links>
+          </p>
+          
+          
+      </div>
       </footer>
+
    </main>   
 </body>
 </html>
- 

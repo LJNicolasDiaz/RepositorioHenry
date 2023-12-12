@@ -1,0 +1,47 @@
+/* Reset.css */
+
+/* Normalizar estilos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer un estilo de fuente más consistente */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Asegurar que los elementos en línea se comporten como bloques */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Evitar que las imágenes tengan bordes adicionales */
+img {
+    border: 0;
+}
+
+/* Establecer estilos base para listas y enlaces */
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Ajustes específicos para algunos elementos */
+button, input, select, textarea {
+    margin: 0;
+}
+
+/* Corregir la visualización en navegadores webkit */
+details {
+    display: block;
+}
+
+/* Establecer una configuración estándar de caja para todos los elementos */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
